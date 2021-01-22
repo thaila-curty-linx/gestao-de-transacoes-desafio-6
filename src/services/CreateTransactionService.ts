@@ -4,7 +4,6 @@ import AppError from '../errors/AppError';
 import Transaction from '../models/Transaction';
 import Category from '../models/Category';
 import TransactionsRepository from '../repositories/TransactionsRepository';
-import transactionsRouter from '../routes/transactions.routes';
 
 interface Request {
   title: string;
